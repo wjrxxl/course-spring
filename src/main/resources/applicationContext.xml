@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+        配置HelloWord所对应的bean，即将HelloWord的对象交给Spring的IoC容器管理
+        bean：通过bean标签配置IoC容器所管理的bean
+          属性：
+            id：bean的唯一标识，不能重复
+            class：设置bean对象所对应的类型
+    -->
+    <bean id="helloWord" class="com.yianle.pojo.HelloWord" ></bean>
+
+
+</beans>
